@@ -32,6 +32,7 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'nifty-generators'
+  gem 'shoulda'
 end
 
 gem 'jquery-rails'

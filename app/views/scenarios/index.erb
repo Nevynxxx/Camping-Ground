@@ -1,1 +1,17 @@
-<p>Sorry, there are no scenarios yet.</p>
+<% if @scenarios.count <= 0 %>
+  <p>Sorry, there are no scenarios yet.</p>
+<% else %>
+<table>
+  <tr>
+    <th>Number</th>
+    <th>Name</th>
+    <th>Author</th>
+  </tr>
+  <% @scenarios.each do |scenario| %>
+  <tr>
+    <td><%= scenario.no %></td>
+    <td><%= scenario.name %></td>
+    <td><%= scenario.author %></td>
+  </tr>
+  <% end %>
+<% end %>

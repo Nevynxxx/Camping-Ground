@@ -9,3 +9,10 @@ Feature: Display a list of Scenarios.
     When I visit the scenarios index
     Then I should see "Sorry, there are no scenarios yet"
 
+  Scenario: There is one scenario
+    Given an anonymous user
+    And a scenario with name "The Kortos Envoy", author "Benjamin Bruck" and number 4 from season 3
+    When I visit the scenarios index
+    Then I should see "The Kortos Envoy"
+    And I should see "Benjamin Bruck"
+    And I should see "#3-04"

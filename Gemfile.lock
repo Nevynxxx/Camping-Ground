@@ -149,6 +149,7 @@ GEM
       ffi (~> 1.0.9)
       multi_json (~> 1.0.4)
       rubyzip
+    shoulda (2.11.3)
     simple-navigation (3.5.1)
       activesupport (>= 2.3.2)
     sprockets (2.0.3)
@@ -191,6 +192,7 @@ DEPENDENCIES
   rolify
   rspec-rails
   sass-rails (~> 3.1.5)
+  shoulda
   simple-navigation
   sqlite3
   therubyracer
