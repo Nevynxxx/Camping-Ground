@@ -1,12 +1,17 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
+gem 'therubyracer'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
 
+#Authentication subsystem
+gem 'devise'
+gem 'cancan'
+gem 'rolify'
 
 # Gems used only for assets and not required
 # in production environments by default.
