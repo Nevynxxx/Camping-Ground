@@ -1,6 +1,8 @@
 CampingGround::Application.routes.draw do
   devise_for :users
 
+  resources :modules
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
