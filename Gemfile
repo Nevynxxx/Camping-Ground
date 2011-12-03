@@ -31,6 +31,7 @@ group :development, :test do
   gem 'cucumber-rails'
   gem 'webrat'
   gem 'database_cleaner'
+  gem 'nifty-generators'
 end
 
 gem 'jquery-rails'
