@@ -29,7 +29,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'cucumber-rails'
-  gem 'webrat'
+  gem 'capybara'
   gem 'database_cleaner'
   gem 'nifty-generators'
 end
