@@ -13,6 +13,10 @@ gem 'devise'
 gem 'cancan'
 gem 'rolify'
 
+# Navigaion System
+gem 'simple-navigation'
+gem 'formtastic'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
