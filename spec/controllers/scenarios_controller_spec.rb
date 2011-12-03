@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../spec_helper'
 
-describe ModulesController do
+describe ScenariosController do
   render_views
 
   it "index action should render index template" do
