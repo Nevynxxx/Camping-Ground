@@ -15,3 +15,6 @@
 /tmp
 #Ignore Vim Backup Files
 *~
+
+# Ignore generated docs, as they can be re-generated
+/doc/*
