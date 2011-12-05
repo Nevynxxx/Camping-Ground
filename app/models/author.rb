@@ -6,7 +6,6 @@
 class Author < ActiveRecord::Base
   validates_presence_of :firstname, :lastname
 
-  #attr_accessor :firstname, :lastname
 
   # As we don't store the full name, but use it, we search on first and last name
   def self.find_by_name(string)
