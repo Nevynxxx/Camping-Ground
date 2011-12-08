@@ -19,6 +19,7 @@ gem 'formtastic'
 
 # Worker Threads in the cloud
 gem 'iron_worker'
+gem 'typhoeus'
 
 # Gems used only for assets and not required
 # in production environments by default.
