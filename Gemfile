@@ -37,6 +37,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'nifty-generators'
   gem 'shoulda'
+  gem 'fakeweb'
 end
 
 gem 'jquery-rails'
