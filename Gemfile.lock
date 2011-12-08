@@ -80,6 +80,11 @@ GEM
       json (>= 1.4.6)
     hike (1.2.1)
     i18n (0.6.0)
+    iron_worker (2.1.1)
+      rest-client
+      rest-client
+      zip
+      zip
     jquery-rails (1.0.19)
       railties (~> 3.0)
       thor (~> 0.14)
@@ -122,6 +127,8 @@ GEM
     rake (0.9.2.2)
     rdoc (3.11)
       json (~> 1.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     rolify (2.1.0)
       activerecord (>= 3.1.0)
     rspec (2.7.0)
@@ -173,6 +180,7 @@ GEM
       rack (>= 1.0)
     xpath (0.1.4)
       nokogiri (~> 1.3)
+    zip (2.0.2)
 
 PLATFORMS
   ruby
@@ -186,6 +194,7 @@ DEPENDENCIES
   devise
   factory_girl_rails
   formtastic
+  iron_worker
   jquery-rails
   nifty-generators
   rails (= 3.1.3)

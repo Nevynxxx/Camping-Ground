@@ -17,6 +17,9 @@ gem 'rolify'
 gem 'simple-navigation'
 gem 'formtastic'
 
+# Worker Threads in the cloud
+gem 'iron_worker'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
