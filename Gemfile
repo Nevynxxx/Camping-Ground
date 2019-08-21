@@ -6,7 +6,7 @@ gem 'therubyracer'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'sqlite3', '1.3.4'
 
 #Authentication subsystem
 gem 'devise'
@@ -17,6 +17,10 @@ gem 'rolify'
 gem 'simple-navigation'
 gem 'formtastic'
 
+# Worker Threads in the cloud
+gem 'iron_worker'
+gem 'typhoeus'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -25,14 +29,18 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-group :development, :test do
+group :development do
+  gem 'nifty-generators'
+  gem 'fakeweb'
+end
+
+group :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'cucumber-rails'
+  gem 'shoulda'
   gem 'capybara'
   gem 'database_cleaner'
-  gem 'nifty-generators'
-  gem 'shoulda'
 end
 
 gem 'jquery-rails'
