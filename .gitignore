@@ -18,6 +18,28 @@
 
 # Ignore generated docs, as they can be re-generated
 /doc/*
+# Vagrant Stuff
+acceptance_config.yml
+boxes/*
+/.vagrant
+/website/.vagrant
+/website/build
+/vagrant-spec.config.rb
+test/vagrant-spec/.vagrant/
+*.log
 # Ignore the iron worker initializor as it contains tokens that shouldn't get
 # into the wild
 config/initializers/iron_worker.rb
+
+#Ruby Stuff
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
