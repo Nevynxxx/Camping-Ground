@@ -29,15 +29,18 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-group :development, :test do
+group :development do
+  gem 'nifty-generators'
+  gem 'fakeweb'
+end
+
+group :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'cucumber-rails'
+  gem 'shoulda'
   gem 'capybara'
   gem 'database_cleaner'
-  gem 'nifty-generators'
-  gem 'shoulda'
-  gem 'fakeweb'
 end
 
 gem 'jquery-rails'
