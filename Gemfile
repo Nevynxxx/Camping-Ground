@@ -17,6 +17,10 @@ gem 'rolify'
 gem 'simple-navigation'
 gem 'formtastic'
 
+# Worker Threads in the cloud
+gem 'iron_worker'
+gem 'typhoeus'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -33,6 +37,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'nifty-generators'
   gem 'shoulda'
+  gem 'fakeweb'
 end
 
 gem 'jquery-rails'
